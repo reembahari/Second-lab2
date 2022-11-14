@@ -9,6 +9,9 @@ public class Main {
         String name =r.nextLine();//use .line with string
         System.out.println("what is your age?");
         int age =r.nextInt();//use the .int with intger
+         r.nextLine();//enter the next line beacuse go to new line
+        System.out.println("what is your gender?");
+        String sex = r.nextLine();
 
 
 
