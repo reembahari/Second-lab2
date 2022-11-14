@@ -1,0 +1,23 @@
+# Second-lab2
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        //the second lab2
+//if statement
+        if (age >= 20 && sex.equals("female")) {
+            System.out.println("this is my true information");
+        }//check this is true or not }
+        else {
+            System.out.println("this is my false information");
+        }
+
+        Scanner admin = new Scanner(System.in);
+        String name1 = admin.nextLine();//use .line with string
+        if (name1.equals("admin")) {
+            System.out.println("hello word");
+        }//check this is true or not }
+        else {
+            System.out.println("hello user");
+        }
+    }
+}
