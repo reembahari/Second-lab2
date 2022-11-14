@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        //the second lab2
+String myname="  reem  ";
+        System.out.println(myname);//print my name
+        System.out.println(myname.length());//to calculate the length of text
+        System.out.println(myname.toUpperCase());//to change text to capital
+        System.out.println(myname.toLowerCase());//to change text to small
+        System.out.println(myname.equals(" reem"));//to compare the text the same or not
+        System.out.println(myname.trim());//to remove the space in the start and end in the text
+        System.out.println(myname.replace('r','a'));//the replace between two charectes
+        System.out.println(myname.startsWith("r"));//the see the text What did you start
+        System.out.println(myname.endsWith("m"));//the see the text What did you end
+
+    }
+
+}
