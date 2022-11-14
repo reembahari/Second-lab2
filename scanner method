@@ -1,0 +1,17 @@
+# Second-lab2
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        //the second lab2
+//String myname="  reem  ";
+        Scanner r=new Scanner(System.in);
+        System.out.println("what is your name?");
+        String name =r.nextLine();//use .line with string
+        System.out.println("what is your age?");
+        int age =r.nextInt();//use the .int with intger
+
+
+
+    }
+
+}
